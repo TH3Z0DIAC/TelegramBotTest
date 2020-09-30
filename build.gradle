@@ -12,7 +12,6 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
-    // https://mvnrepository.com/artifact/com.github.pengrad/java-telegram-bot-api
-    compile group: 'com.github.pengrad', name: 'java-telegram-bot-api', version: '4.9.0'
-
+    //Dependency for Bot from Telegram
+    compile "org.telegram:telegrambots-abilities:4.5"
 }
