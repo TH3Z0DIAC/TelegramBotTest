@@ -2,7 +2,7 @@ package ch.nyplj.telebot;
 
 import org.telegram.abilitybots.api.bot.AbilityBot;
 import org.telegram.abilitybots.api.objects.Ability;
-import org.telegram.abilitybots.api.objects.MessageContext;
+import org.telegram.abilitybots.api.sender.DefaultSender;
 
 import java.nio.charset.StandardCharsets;
 
@@ -11,8 +11,7 @@ import static org.telegram.abilitybots.api.objects.Privacy.PUBLIC;
 
 public class Bot extends AbilityBot {
     private final int CREATOR_ID = 1252376620;
-    private java.util.function.Consumer<MessageContext> Consumer;
-    private Object MessageContext;
+
 
     /**
      * Basic Bot Constructor
