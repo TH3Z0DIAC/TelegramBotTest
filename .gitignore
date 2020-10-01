@@ -8,6 +8,7 @@ gradle/
 gradlew
 gradlew.bat
 FncyRainbowBot
+/src/main/java/ch/nyplj/telebot/BotInformation.java
 
 ### STS ###
 .apt_generated
